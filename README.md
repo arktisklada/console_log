@@ -4,10 +4,12 @@ Log rails variables to the browser console.
 
 ## Installation
 
-Include `console_log` in your `Gemfile`:
+Include `console_log` in your `Gemfile`, probably in your development group:
 
 ``` ruby
-gem "console_log"
+group :development do
+  gem "console_log"
+end
 ```
 
 ## Usage
