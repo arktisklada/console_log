@@ -1,5 +1,5 @@
 module ConsoleLogHelper
-  def javascript_include_console_log(development_only = true)
+  def console_log_javascript_tag(development_only = true)
     render partial: 'console_log/javascript'
   end
 

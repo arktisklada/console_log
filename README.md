@@ -22,4 +22,10 @@ console_log message, ...
 
 The `console_log` method accepts one or many arguments, appending each one to the console queue.
 
+You must include the following in your layout file(s):
+
+``` ruby
+<%= console_log_javascript_tag %>
+```
+
 When the page renders, the queued messages/variables/objects will be logged to the browser console
