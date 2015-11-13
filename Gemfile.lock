@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    console_log (0.0.1)
-      rails (~> 4.2.0)
+    console_log (0.1.1)
+      rails (~> 4.1)
 
 GEM
   remote: https://rubygems.org/

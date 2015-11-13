@@ -1,7 +1,7 @@
 require 'test_helper'
 
 module ConsoleLog
-  class ConsoleLogTest < ActiveSupport::TestCase
+  class ConsoleLogBaseTest < ActiveSupport::TestCase
     def setup
       @instance = ConsoleLog.instance
       @instance.reset

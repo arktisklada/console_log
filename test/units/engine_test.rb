@@ -1,7 +1,7 @@
 require 'test_helper'
 
 module ConsoleLog
-  class ConsoleLogControllerTest < ActionController::TestCase
+  class ConsoleLogEngineTest < ActionController::TestCase
     tests ApplicationController
 
     test "console_log is available to controllers" do
